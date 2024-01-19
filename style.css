@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Linear gradient background */
+}
+
+.app-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#captcha-container {
+    margin-bottom: 15px;
+}
+
+#captcha {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #333;
+    margin-bottom: 10px;
+}
